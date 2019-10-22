@@ -1,0 +1,62 @@
+{
+  "name": "react-plug",
+  "version": "0.0.13",
+  "description": "Npm origin starter kit",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prerelease": "npm run build",
+    "release": "np --yarn=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobuti/react-plug.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "nobuti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobuti/npm-origin/issues"
+  },
+  "homepage": "https://github.com/nobuti/npm-origin#readme",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "cross-env": "latest",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "latest",
+    "np": "latest",
+    "rollup": "latest",
+    "rollup-plugin-babel": "latest",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-node-resolve": "latest",
+    "rollup-plugin-peer-deps-external": "latest",
+    "rollup-plugin-postcss": "latest",
+    "rollup-plugin-url": "latest"
+  },
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/setupFile.js"
+    ]
+  }
+}

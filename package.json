@@ -1,6 +1,6 @@
 {
-  "name": "react-plug",
-  "version": "0.0.13",
+  "name": "npm-origin",
+  "version": "0.0.2",
   "description": "Npm origin starter kit",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

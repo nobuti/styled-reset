@@ -1,6 +1,6 @@
 {
   "name": "npm-origin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Npm origin starter kit",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nobuti/react-plug.git"
+    "url": "git+https://github.com/nobuti/npm-origin.git"
   },
   "keywords": [
     "react",

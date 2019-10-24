@@ -1,4 +1,4 @@
-import { css, createGlobalStyle } from 'styled-components'
+import { css } from 'styled-components'
 
 export const reset = css`
 /* Box sizing rules */
@@ -84,7 +84,5 @@ th:not([align]) {
   text-align: left;
 }
 `
-
-export const Reset = createGlobalStyle`${reset}`
 
 export default reset

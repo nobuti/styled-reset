@@ -1,7 +1,7 @@
 {
-  "name": "npm-origin",
-  "version": "0.0.3",
-  "description": "Npm origin starter kit",
+  "name": "styled-reset",
+  "version": "0.0.1",
+  "description": "Modern css reset for styled-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -19,18 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nobuti/npm-origin.git"
+    "url": "https://github.com/nobuti/styled-reset.git"
   },
   "keywords": [
-    "react",
-    "hooks"
+    "css",
+    "reset",
+    "styled-components"
   ],
   "author": "nobuti",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nobuti/npm-origin/issues"
+    "url": "https://github.com/nobuti/styled-reset/issues"
   },
-  "homepage": "https://github.com/nobuti/npm-origin#readme",
+  "homepage": "https://github.com/nobuti/styled-reset#readme",
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",

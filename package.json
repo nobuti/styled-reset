@@ -10,8 +10,6 @@
     "npm": ">=5"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prerelease": "npm run build",
@@ -42,7 +40,6 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "jest": "latest",
     "np": "latest",
     "rollup": "latest",
     "rollup-plugin-babel": "latest",
@@ -50,14 +47,13 @@
     "rollup-plugin-node-resolve": "latest",
     "rollup-plugin-peer-deps-external": "latest",
     "rollup-plugin-postcss": "latest",
-    "rollup-plugin-url": "latest"
+    "rollup-plugin-url": "latest",
+    "styled-components": "^4.4.0"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.4.0"
   },
   "files": [
     "dist"
-  ],
-  "jest": {
-    "setupFiles": [
-      "<rootDir>/setupFile.js"
-    ]
-  }
+  ]
 }

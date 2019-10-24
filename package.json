@@ -1,5 +1,5 @@
 {
-  "name": "styled-reset",
+  "name": "@nobuti/styled-reset",
   "version": "0.0.1",
   "description": "Modern css reset for styled-components",
   "main": "dist/index.js",

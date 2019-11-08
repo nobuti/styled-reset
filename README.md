@@ -16,7 +16,7 @@ This project declares styled-components as peer dependency, so you will need to 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset'
+import reset from '@nobuti/styled-reset'
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
